@@ -11,9 +11,9 @@
 
 .box {
     text-align: center;
-    background-color: lightgray;
     padding: 20px;
     display: flex;
     justify-content: flex;
-    height: 100vh;
+    border-radius: 200px;
+    justify-content: space-between;
 }
