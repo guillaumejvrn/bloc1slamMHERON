@@ -69,7 +69,7 @@
             $co = $_GET['co'];
             echo '<p>est ce que c bon pour vous</p>';
 
-            echo '<table>';
+            echo '<table border="1">';
             for ($i = 0; $i < $li; $i++) {
                 echo '<tr rowspan="1">';
                 for ($j = 0; $j < $co; $j++) {
