@@ -63,6 +63,23 @@
         }
         ?>
         </textarea>
+        <?php
+        if (isset($_GET['li']) && isset($_GET['co'])) {
+            $li = $_GET['li'];
+            $co = $_GET['co'];
+            echo '<p>est ce que c bon pour vous</p>';
+
+            echo '<table>';
+            for ($i = 0; $i < $li; $i++) {
+                echo '<tr rowspan="1">';
+                for ($j = 0; $j < $co; $j++) {
+                    echo '<td colspan="1">Cellule ' . ($i + 1) . '-' . ($j + 1) . '</td>';
+                }
+                echo '</tr>';
+            }
+            echo '</table>';
+        }
+        ?>
         
 
     </body>
