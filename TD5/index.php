@@ -19,7 +19,7 @@
         
 
 
-        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        <p>--------------------------------------------------------------------</p>
 
         <form method="get" action="index.php">
             <label for="cb">combien de lignes</label>
@@ -34,7 +34,7 @@
             }
         }
         ?>
-        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        <p>--------------------------------------------------------------------</p>
 
         <form method="get" action="index.php">
             <label for="li">  combien de lignes  </label>
@@ -79,6 +79,13 @@
             }
             echo '</table>';
         }
+        ?>
+
+        <p> FIN TD5 </p>
+
+        <?php
+        include 'function.php';
+        titre('test');
         ?>
         
 
