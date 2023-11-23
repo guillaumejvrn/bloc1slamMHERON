@@ -86,6 +86,7 @@
         <?php
         include 'function.php';
         titre('test');
+        gett('test');
         ?>
         
 
